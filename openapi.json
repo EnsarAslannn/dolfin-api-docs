@@ -7,14 +7,14 @@
   },
   "servers": [
     {
-      "url": "https://ensaraslannn-001-site1.ctempurl.com",
+      "url": "https://dol-fin.com/api",
       "description": "Production Server"
     },
     {
       "url": "https://localhost:7109",
       "description": "Local Development Server"
     }
-  ],
+],
   "paths": {
     "/api/account/login": {
       "post": {

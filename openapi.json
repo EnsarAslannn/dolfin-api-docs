@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://ensaraslannn-001-site1.ctempurl.com/api",
+      "url": "https://ensaraslannn-001-site1.ctempurl.com",
       "description": "Production Server"
     },
     {

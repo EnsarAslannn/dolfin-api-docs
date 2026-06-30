@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://dol-fin.com/api",
+      "url": "https://dol-fin.com",
       "description": "Production Server"
     },
     {

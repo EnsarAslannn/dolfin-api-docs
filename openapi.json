@@ -14,7 +14,7 @@
       "url": "https://localhost:7109",
       "description": "Local Development Server"
     }
-],
+  ],
   "paths": {
     "/api/account/login": {
       "post": {
@@ -441,7 +441,7 @@
               "format": "decimal"
             },
             "description": "The amount of cash to deposit into the wallet",
-            "example": 1000.00
+            "example": 1000
           }
         ],
         "responses": {
@@ -476,7 +476,7 @@
               "format": "decimal"
             },
             "description": "The amount of cash to withdraw",
-            "example": 500.00
+            "example": 500
           }
         ],
         "responses": {
@@ -618,8 +618,8 @@
               "example": {
                 "symbol": "EXMPL",
                 "companyName": "Example",
-                "purchase": 0.00,
-                "lastDiv": 0.00,
+                "purchase": 0,
+                "lastDiv": 0,
                 "industry": "Example",
                 "marketCap": 0
               }
@@ -727,8 +727,8 @@
               "example": {
                 "symbol": "EXMPL",
                 "companyName": "Example",
-                "purchase": 0.00,
-                "lastDiv": 0.00,
+                "purchase": 0,
+                "lastDiv": 0,
                 "industry": "Example",
                 "marketCap": 0
               }

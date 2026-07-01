@@ -157,6 +157,11 @@
         ],
         "summary": "Get Comment By ID",
         "description": "Retrieves a single comment based on its unique SQL database ID. Open to public.",
+        "security": [
+          {
+          "Bearer": []
+          }
+        ],
         "parameters": [
           {
             "name": "id",
@@ -183,6 +188,11 @@
         ],
         "summary": "Update Existing Comment",
         "description": "Updates the content of the specified comment using the request body data.",
+        "security": [
+          {
+          "Bearer": []
+          }
+        ],
         "parameters": [
           {
             "name": "id",
@@ -235,6 +245,11 @@
         ],
         "summary": "Delete Comment",
         "description": "Removes the comment record from SQL Server and returns the deleted entity for confirmation.",
+        "security": [
+          {
+          "Bearer": []
+          }
+        ],
         "parameters": [
           {
             "name": "id",
@@ -263,6 +278,11 @@
         ],
         "summary": "Add Comment to Stock",
         "description": "Creates a new comment linked to a specific stock entity for the currently authenticated user.",
+        "security": [
+          {
+          "Bearer": []
+          }
+        ],
         "parameters": [
           {
             "name": "stockId",

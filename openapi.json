@@ -107,6 +107,46 @@
         }
       }
     },
+    "/api/admin/logs": {
+      "get": {
+        "tags": ["Admin"],
+        "summary": "Get system logs",
+        "description": "Fetches the latest 50 system logs from the database.",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "message": {
+                        "type": "string"
+                      },
+                      "level": {
+                        "type": "string"
+                      },
+                      "timeStamp": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "exception": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/comment": {
       "get": {
         "tags": [

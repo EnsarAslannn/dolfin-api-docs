@@ -330,19 +330,7 @@
           }
         }
       }
-    }
-  },
-  "components": {
-    "securitySchemes": {
-      "Bearer": {
-        "type": "http",
-        "scheme": "bearer",
-        "bearerFormat": "JWT",
-        "description": "Please input a valid JWT Token to access DOLFIN endpoints."
-      }
-    }
-  }
-}
+    },
     "/api/portfolio": {
       "get": {
         "tags": [
